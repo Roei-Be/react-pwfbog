@@ -1,0 +1,40 @@
+#controllers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+
+#main_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.controllers_link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #d5dbdb;
+  text-decoration: none;
+}
+
+#contollers_wrapper {
+  display: flex;
+  align-items: center;
+  border: solid #2e4053 1px;
+  /* color: white;*/
+  background: #1b2631;
+  height: 5vh;
+  width: 100%;
+}
+
+#contollers_wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  margin-right: 40px;
+}

@@ -1,0 +1,14 @@
+#navbar_wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.navbar_link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #d5dbdb;
+  text-decoration: none;
+}
